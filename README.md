@@ -25,7 +25,7 @@ Running instructions:
         vagrant up
     
     Now that you are running your VM,  ssh into it:
-       
+
         vagrant ssh 
     
     NOTE: If you are getting errors try resetting your path with: 
@@ -52,11 +52,11 @@ Running instructions:
     
         crontab -e
 
-Press 2 and choose nano. Like the help says, it’s the easiest to use. 
-
-Scroll down and enter:
+    Press 2 and choose nano. Like the help says, it’s the easiest to use. 
     
-    20 * * * * cd /vagrant/RedditBot/; ./commentsbot.py
+    Scroll down and enter:
 
-This will run the bot every 20 minutes. Save it with Ctrl+o and exit Ctrl+x.
+        20 * * * * cd /vagrant/RedditBot/; ./commentsbot.py
+    
+    This will run the bot every 20 minutes. Save it with Ctrl+o and exit Ctrl+x.
 
