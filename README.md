@@ -56,7 +56,7 @@ Running instructions:
     
     Scroll down and enter:
 
-        20 * * * * cd /vagrant/RedditBot/; ./commentsbot.py
+        */10 * * * * cd /vagrant/RedditBot/; ./commentsbot.py
     
     This will run the bot every 20 minutes. Save it with Ctrl+o and exit Ctrl+x.
 
