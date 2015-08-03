@@ -28,10 +28,6 @@ Running instructions:
 
         vagrant ssh 
     
-    NOTE: If you are getting errors try resetting your path with: 
-    
-        set PATH=%PATH%;C:\Program Files (x86)\Git\bin
-    
     And CD into the vagrant file:
     
         cd /vagrant/
